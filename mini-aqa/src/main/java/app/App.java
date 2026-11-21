@@ -32,5 +32,6 @@ public class App {
         String studentName = properties.getProperty("student.name");
         App app = new App();
         System.out.println(app.greet(studentName));
+
     }
 }
